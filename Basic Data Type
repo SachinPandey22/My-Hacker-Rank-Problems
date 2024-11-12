@@ -1,24 +1,16 @@
-#include <iostream>
-#include <iomanip>
+#include <cmath>
 #include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
+
 int main() {
-    int a;
-    long long b;
-    char c;
-    float d;
-    double e;
+    int a, b, c;
+    cin>>a>>b>>c;
+    cout<<a+b+c<<endl;
 
-    // Read the inputs
-    cin >> a >> b >> c >> d >> e;
-
-    // Print each variable with the specified formatting
-    cout << a << endl;
-    cout << b << endl;
-    cout << c << endl;
-    cout << defaultfloat << setprecision(20) << d << endl;
-    cout << defaultfloat << setprecision(20)<< e << endl;
-
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     return 0;
 }
