@@ -1,0 +1,24 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a;
+    long long b;
+    char c;
+    float d;
+    double e;
+
+    // Read the inputs
+    cin >> a >> b >> c >> d >> e;
+
+    // Print each variable with the specified formatting
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+    cout << defaultfloat << setprecision(20) << d << endl;
+    cout << defaultfloat << setprecision(20)<< e << endl;
+
+    return 0;
+}
